@@ -21,6 +21,6 @@ jobs:
         with:
           authToken: ${{ secrets.GITHUB_TOKEN }}
           context: Netlify preview
-          owner: "Distributed-Validators-Synctems"
+          owner: "Antropocosmist"
           state: success
           target_url: "https://${{ github.sha }}--validators-network.netlify.app"
