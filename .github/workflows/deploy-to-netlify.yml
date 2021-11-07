@@ -21,5 +21,6 @@ jobs:
         with:
           authToken: ${{ secrets.GITHUB_TOKEN }}
           context: Netlify preview
+          owner: amakom
           state: success
           target_url: "https://${{ github.sha }}--validators-network.netlify.app"
